@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import { Home } from "./views/home";
@@ -7,8 +6,6 @@ import { NavBar } from "./components/navBar";
 import "./index.scss";
 
 function App() {
-  const [count, setCount] = useState(0);
-  console.log(Route);
   return (
     <Router>
       <div>

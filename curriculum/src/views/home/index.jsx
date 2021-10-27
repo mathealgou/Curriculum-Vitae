@@ -7,10 +7,7 @@ export function Home() {
       <h3>Experiência</h3>
       <Paragraph
         title="Devoz"
-        text="Fui estagiário de julho a outubro de 2021. Sou extremamente grato pelo
-        meu tempo lá. Foi onde aprendi sobre metodologias ágeis, docker, React,
-        Vue, Nest, e tantos outros conhecimentos teóricos e práticos que me
-        fizeram crescer muito como profissional."
+        text="Estágio em desenvolvimento, 07/2021 - 10/2021 (React, Extjs, Vue.js, Nest, Docker, Express, Node-Red)"
       />
       <h3>Formação</h3>
       <Paragraph

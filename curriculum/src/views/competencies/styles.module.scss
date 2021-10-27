@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 h3 {
@@ -17,4 +18,10 @@ h3 {
     color: #e1e9f3;
     font-size: 2em;
     font-weight: normal;
+    background: linear-gradient(155deg, #ff9011, #8100cc); // We will need to generate gradient colors to complement the background.
+    -webkit-background-clip: text;
+    background-clip: text;
+    //-moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
