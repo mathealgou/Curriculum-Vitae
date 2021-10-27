@@ -15,7 +15,9 @@ export function Competencies() {
       <Paragraph title="Back-end" text={"Node  \nExpress \nNest \nREST"} />
       <Paragraph
         title="Outras habilidades"
-        text={"Node  \nExpress \nNest \nREST"}
+        text={
+          "Python (Incluindo bibliotecas como tweepy)  \nTypescript \nDocker \nGit (Github, bitbucket) \nElectron (Distribuição de aplicações web para Desktop) \nMetodologias ágeis (Scrum)"
+        }
       />
     </div>
   );
