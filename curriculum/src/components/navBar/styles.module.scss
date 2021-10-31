@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: space-between;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     top: 0;
     text-shadow: 0px 3px 0px 3px rgba(0, 0, 0, 0.623);
     text-overflow: ellipsis;
@@ -22,10 +22,14 @@ nav{
 .link{
     margin-right: 1em;
     text-decoration: none;
-    color: #e1e9f3;
-    font-size: 1.5em;
+    color: #b9ddea;
+    font-size: 4vw;
     &:hover{
         border-bottom: 1px solid white;
+    }
+    @media screen and (min-width: 600px) {
+        font-size: 1.5em;
+
     }
 }
 
@@ -34,7 +38,7 @@ h2{
     margin-right: 0.2em;
     text-decoration: none;
     color: #e1e9f3;
-    font-size: 2em;
+    font-size: 5vw;
     text-emphasis: none;
     font-weight: normal;
     text-overflow: clip;
@@ -44,6 +48,10 @@ h2{
     &:hover{
         cursor: default;
         border-bottom: 1px solid white;
+    }
+    @media screen and (min-width: 600px) {
+            font-size: 2em;
+        
     }
 
 }

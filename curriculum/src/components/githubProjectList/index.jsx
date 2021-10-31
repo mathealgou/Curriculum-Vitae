@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { GithubProject } from "../githubProject";
+import styles from "./styles.module.scss";
 
 export function GithubProjectList() {
   const [projects, setProjects] = useState([]);
@@ -11,8 +12,7 @@ export function GithubProjectList() {
   }, []);
 
   return (
-    <div>
-      <h1>GithubProjectList</h1>
+    <div className={styles.container}>
       {projects
         ? projects.map((project) => (
             <GithubProject key={project.url} project={project} />
