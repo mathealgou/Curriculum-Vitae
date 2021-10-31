@@ -1,0 +1,24 @@
+// @mixin gradient($direction, $list) {
+//     background: linear-gradient(135deg, #ec7e00, #59008d);
+// }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    background: #1d1f39;
+    h4 {
+        text-align: center;
+        margin-top: 0.5em;
+        color: #e1e9f3;
+        font-size: 1.5em;
+        font-weight: normal;
+        margin-bottom: -1em;
+    }
+    p{
+        text-align: center;
+    }
+}
+

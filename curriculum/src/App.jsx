@@ -4,6 +4,7 @@ import { Home } from "./views/home";
 import { Competencies } from "./views/competencies";
 import { Projects } from "./views/projects";
 import { NavBar } from "./components/navBar";
+import { Footer } from "./components/footer";
 import "./index.scss";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <Home />
           </Route>
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
