@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import { Home } from "./views/home";
 import { Competencies } from "./views/competencies";
+import { Projects } from "./views/projects";
 import { NavBar } from "./components/navBar";
 import "./index.scss";
 
@@ -15,6 +16,9 @@ function App() {
         <Switch>
           <Route path="/competencies">
             <Competencies />
+          </Route>
+          <Route path="/projects">
+            <Projects />
           </Route>
           <Route path="/">
             <Home />

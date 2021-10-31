@@ -12,6 +12,9 @@ export function NavBar() {
         <Link to="/competencies" className={styles.link}>
           Competências
         </Link>
+        <Link to="/projects" className={styles.link}>
+          Projetos
+        </Link>
       </nav>
     </div>
   );
