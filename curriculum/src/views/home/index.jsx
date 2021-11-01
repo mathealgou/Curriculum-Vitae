@@ -4,19 +4,19 @@ import { Paragraph } from "../../components/paragraph";
 export function Home() {
   return (
     <div className={styles.container}>
-      <h3>Experiência</h3>
+      <h3>Experience</h3>
       <Paragraph
         title="Devoz"
-        text="Estágio em desenvolvimento, 07/2021 - 10/2021 (React, Extjs, Vue.js, Nest, Docker, Express, Node-Red)"
+        text="Development intern, 07/2021 - 10/2021 (React, Extjs, Vue.js, Nest, Docker, Express, Node-Red)"
       />
-      <h3>Formação</h3>
+      <h3>Education</h3>
       <Paragraph
         title="CDISC"
-        text="Foi um curso que fiz em 2017. Apesar da curta duração, me deu uma base forte a respeito de lógica e solução de problemas, além de ser uma boa introdução a algumas tecnologias web."
+        text="A short, introductory course to programming and web technologies."
       />
       <Paragraph
-        title="Desenvolvimento de Sistemas - SENAI"
-        text="Ainda estou cursando e, diga-se de passagem, aprendendo muito. Estou ataualmente no segundo período, e devo terminar até o final de 2022."
+        title="Systems Development - SENAI"
+        text="I'm still studying and, by the way, learning a lot. I'm currently in the second period, and should finish by the end of 2022."
       />
     </div>
   );

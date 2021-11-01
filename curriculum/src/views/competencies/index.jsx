@@ -5,7 +5,7 @@ import { Paragraph } from "../../components/paragraph";
 export function Competencies() {
   return (
     <div className={styles.container}>
-      <h3>Competências</h3>
+      <h3>Skills</h3>
       <Paragraph
         title="Front-end"
         text={
